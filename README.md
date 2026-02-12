@@ -4,7 +4,7 @@ Single-file, no external deps except `requests` & `beautifulsoup4`.
 
 > Made by **takaa** & **authoryvv**
 
-## ⚡ Highlights
+## Highlights
 - Regex + BeautifulSoup hybrid parsing  
 - Crawls up to *n* pages (user-defined limit)  
 - Skips `tel:`, `mailto:`, `javascript:`, `#` links  
@@ -12,7 +12,7 @@ Single-file, no external deps except `requests` & `beautifulsoup4`.
 - Keyboard-interrupt safe (`Ctrl+C` to stop)  
 - Zero config 
 
-## 🚀 Install & Run
+## Installasion
 ```bash
 # 1. clone
 git clone https://github.com/Takabtc1/Email-Scrapper.git
@@ -24,7 +24,7 @@ python3 -m venv venv && source venv/bin/activate
 # 3. install deps (install first)
 pip3 install -r requirements.txt
 
-# 4. run
+# 4. running 
 python3 emailscraper.py
 
 #Example:
